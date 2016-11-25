@@ -1,0 +1,24 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+    <persistence-unit name="restaurant" transaction-type="RESOURCE_LOCAL">
+        <description>
+            Persistence unit of Restaurant application
+        </description>
+        <!--<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>-->
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="${javax.persistence.jdbc.driver}"/>
+            <property name="javax.persistence.jdbc.url" value="${javax.persistence.jdbc.url}"/>
+            <property name="javax.persistence.jdbc.user" value="${javax.persistence.jdbc.user}"/>
+            <property name="javax.persistence.jdbc.password" value="${javax.persistence.jdbc.password}"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="validate"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <!--<property name="hibernate.enable_lazy_load_no_trans" value="true"/>-->
+        </properties>
+    </persistence-unit>
+</persistence>
