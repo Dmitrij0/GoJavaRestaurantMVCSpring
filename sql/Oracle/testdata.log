@@ -1,0 +1,1445 @@
+SQL> @testdata
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (15, '1YAD58HEIT5CVG9QK1Q8J9RI5LPMWY6X31GYV6TKIX3K89UWPP', 'JHJJGP C4FUF6MY521LXEOX96JYM2WT5MUAQVHHI99NCA8U1SF', '2005-8-7 0:0:0', '117ETSUGN2DVBP1X45K4')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (10, 'LFDYQBRFXO0R6RKUEGE3Y5VC4KAVWAFCNV5S2DAILYP9199CIS', 'KF2A5I85T7NUELLNGCT5VBDLTPHDQ4FQQOE0RKW0X9BWENBIFL', '2004-3-8 0:0:0', '1 E T4F68WW219RK8KNE')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (13, '6YA9GMTR5XNI BYK4F35MAIDEBDYYBJ163YN864MLI2VPYWNYY', ' YMRPW4CFA45VIKGC9L8X2OPI16GP0SUILVHKLPBBN9K39VQC0', '2001-8-25 0:0:0', 'EXQ IU4FGV1KT0BXD1AU')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (8, 'TPQ6O139HXHLGIVAVR5F8UV5VDXG2IYT3UMIH6ARL0PRLKAQTP', '8144TO8LWPOKHK56NS8WVSWJ8H EPJDH12AYCEXDIW6JPH56PO', '2006-10-15 0:0:0', 'ET9QR6J9GEL3QTUAMM5K')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (11, '7KL7PPOL1WGLVXIXAGJ72XKNIFGS0096FS PHJQUHC7K2KH2R6', '3392FEUNK7D5YE55C7JBNHQ396XC9HKRH9TON4PGUWI 5WIQ5G', '2010-9-21 0:0:0', 'R707KBVR6HHNXRMH9XAG')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (7, 'PN 96YU1WW34IKV6FH0C71NOU8DE7Y5N7A5QWNO 2R5EL MO9U', 'YXXL10XNV7UGKAVEQ7Y081UL0KIGUWN6G1VMR270N5QRS8NGII', '2004-9-13 0:0:0', '04DITB8GWF76QE2PN1SF')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (19, 'N8XT1Q3I6JL0ITHX7M07YJDFCPE3T638DQMD691JDHE80J9MCN', '5QL2NC1M6 NFSP4G4 XC9AIG9J66C9VHMEPXD120RT6RKDE8RI', '2000-10-28 0:0:0', 'NNSEGVMLVUCG39TK840J')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (6, 'KOQWG3D8JAMHS7JSOMKVYLG64BUJLJ8 ET24C2FKEK7AIK5QD5', 'EH4B3MEBBCEIWBBIDN5JUSGPIY CYKIDSX0W98J1QOEWX7N 2Y', '2002-2-24 0:0:0', 'HAI0AU8271VTDSKEH2XA')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (4, 'S6J2DV4N5HR0555Y098V9S7MR6P8QAP5FKLKMDF68WCKT477P7', '4KE4 RHR4PRTL7JM4Q61O0LPVXJML436JS0BJJPI1H2GR0TBLF', '2008-9-4 0:0:0', '4EI SWO4Q5P16W7SN36R')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (0, 'P649WRLO3AANGI4FBT9QWMA98TL7Q89QISVU90X7PWED7QJ07Q', 'BYA0YOG3M3PNJCMRAWX0LBVJF688LARGD2F6LFRQCFYPA2LX2J', '2009-4-9 0:0:0', '6RYNCEO97U9OX767WWVV')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (5, 'VI7ANYKM87PFWLTPSRT032SJ5EB1DHXCIOR4N8RV6AWRTFX SO', 'EHBVRQLRVONKUADLN33IF37G TYQTNI0TQUHURQ7 MHR67LX2P', '2014-3-24 0:0:0', 'DGHRNKI1DU L9BVNP3H4')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (3, 'V1FHYN54W9CYJUVJSSM9JR80TX8QJ 8MJ3AL10LAWV8EBL3W9J', 'R47DV9UX 9J929KYX7E85LFOF73GLM9DS3RMF16DJA6VFGHP2P', '2000-1-1 0:0:0', 'EALV8FOVX6UW0BJPBT3X')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (12, 'Y5WIWDR8FYK323OR4F6G53 2RPU5UVXD2W3K3QTOPG8XRWYAC ', 'MQKANXKVY58BGV3WVV356XO52LLU0YLBRNVNJSSB7COXAECPC ', '2009-11-28 0:0:0', 'SOKUHLLV50J4IM4 4MJI')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (17, 'J7N5N6GOTRRAQNAKVBQPELYI9C8D6KS1U6VCOTGOHPFLPA89DH', 'R 05ONTN 5E1DTFDPIAWVWEG28BDUOE1IQ F717YVFIDW6IEJ4', '2007-8-28 0:0:0', 'Q8D2WDEX37D2PC4XGLXJ')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (14, ' 4C6A6YT9 7220N19TXWXVSWRYJ8NFR0279FHH7KWC69T6B0D0', 'J3K7V5TX84IGTEE3BCMET8X F9NDTPP9CWCJJLJ3KA V3QOHUP', '2006-2-23 0:0:0', 'MVHR65FLUAV4QCLCSD O')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (16, '5CEUBY3KTXHI17E6VL3XNSSU2EFEGGBVXOI2UN94 FPSGHUNLK', 'RJJ V 0HHXWVN UBFHSPMWXB1TSKVKVQ6TDNNNM834BG0KLSRC', '2003-2-10 0:0:0', 'I6EFEA 1MC4JQ8IE0AI3')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (2, 'RY9W2COFGI WSOL3TWI PK4JCJKGSMPV3V9ED1KVD521W3BI1N', '4FMRE49VJFT4B1CD9JKI34YSPURAR36 0II7O 08XNM3LNC 7X', '2013-6-25 0:0:0', 'EQ VMS3BAHUCK OVKT91')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (9, 'O0DD9LEW7X7I6PTY7YXM20RW7QEBYFUJ0 PE2PXWGSJ3UXJCUF', '55W4AHPF4Q1J81YMFXXNDRMKNML 6 8W7CXN3EYFNKLP7QIEVR', '2010-4-21 0:0:0', 'JDR9CWHQF6AU1FREVEGD')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (18, 'H29P6B3 JS80XMHDQU3K3HP4UNA033CTAV4I9RUX3HM31Y9P E', 'T79 ACKXTXKHFIW0PJ7E5Y5N5NAWABKPN6E2O4BG9O 6VRK880', '2011-11-26 0:0:0', 'G46R1JN61IL9KWG5ISSQ')
+                                                                                                                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into EMPLOYEE (EMP_ID, EMP_LAST_NAME, EMP_FIRST_NAME, EMP_BIRTHDAY, EMP_PHONE) values (1, 'MKYKO7NRV555 85VANNKPWCQD6YEVQH4QPQU9D0HQ5KEH0EC7X', '6Y24OX1TC5WSKX6I8UHU4QGXSGQGW81PDAGVLL022NY45RPH1T', '2012-9-22 0:0:0', 'JIS2C NONQCUFRN5HFV1')
+                                                                                                                                                                                                             *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (17, 19)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (13, 13)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (10, 4)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (9, 17)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (15, 12)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (4, 0)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (5, 14)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (18, 9)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (16, 5)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (19, 15)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (12, 1)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (2, 3)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (6, 11)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (8, 10)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (7, 2)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (1, 18)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (0, 7)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (14, 6)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (3, 16)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into STOCK (ING_ID, STK_QUANTITY) values (11, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_STOCK_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (5, 17, 11)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (11, 13, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (17, 10, 0)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (6, 9, 18)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (14, 15, 3)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (13, 4, 15)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (15, 5, 16)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (9, 18, 12)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (7, 16, 19)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (12, 19, 5)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (4, 12, 14)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (8, 2, 17)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (0, 6, 4)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (19, 8, 7)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (1, 7, 2)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (16, 1, 9)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (2, 0, 13)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (3, 14, 6)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (18, 3, 1)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+insert into INGREDIENTS_OF_DISH (DSH_ID, ING_ID, IOD_WEIGHT) values (10, 11, 10)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_INGREDIE_REFERENCE_INGREDIE) 
+violated - parent key not found 
+
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (15, 5, 7)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (4, 11, 18)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (9, 17, 3)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (3, 6, 2)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (10, 14, 15)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (18, 13, 11)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (11, 15, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (14, 9, 16)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (19, 7, 12)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (12, 12, 17)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (13, 4, 19)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (16, 8, 0)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (8, 0, 5)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (2, 19, 6)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (17, 1, 14)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (1, 16, 10)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (6, 2, 4)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (0, 3, 13)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (7, 18, 1)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into DISHES_OF_MENU (MNU_ID, DSH_ID, DOM_COST) values (5, 10, 9)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISHES_O_REFERENCE_DISH) 
+violated - parent key not found 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (19, 'QP8H28HKDP6 DIC4 DA H988A', 13, 15, '2014-8-28 0:0:0')
+                                                                                                                      *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (18, 'INVSBPKEPI OH9 7F3HJREJTL', 4, 15, '2000-10-17 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (13, 'X3T9TX3WVE UPIHMNO B12O58', 12, 15, '2006-5-11 0:0:0')
+                                                                                                                      *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (9, 'IJ3E6R4IVQWD54501ILIOR9PT', 5, 15, '2003-5-15 0:0:0')
+                                                                                                                    *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (12, 'O 80KT4RL5URU9CQ9BQIT7B5H', 6, 15, '2005-5-13 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (6, 'GOSDG606I7UXHRCN5A AH7F89', 15, 15, '2002-3-27 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (16, 'VIU7NIT PGQB78PFEK3DTQK 9', 9, 15, '2009-11-29 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (0, 'ENGG796OM8ICB4F86H1CX9291', 0, 15, '2007-11-17 0:0:0')
+                                                                                                                    *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (7, 'OUBSU7EHQYYPP6548HA5XOSFM', 16, 15, '2001-3-18 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (1, ' RWMAA2NG VW09NOX4XR A8DT', 8, 15, '2013-8-8 0:0:0')
+                                                                                                                    *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (2, 'X2E82HDP4EBQ A4V NSAJ5THX', 17, 15, '2012-12-15 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (5, 'AE045H85FMBQN9UM1PKXCLY08', 18, 15, '2008-6-7 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (10, 'GKX6TVSOACQWPOG2DRG1291WX', 7, 15, '2002-8-26 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (15, 'QOPTPB5L04VOIQB N8FD7W772', 1, 15, '2004-9-30 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (17, ' QXYKFUQVSTAOCOFV7KY9URCP', 10, 15, '2007-6-25 0:0:0')
+                                                                                                                      *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (8, 'L73YGJF2N623F6S4XW0E5YDY4', 3, 15, '2010-8-13 0:0:0')
+                                                                                                                    *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (14, '0 ICOFC65PPWGNJPGWV7DR5AO', 11, 15, '2004-1-31 0:0:0')
+                                                                                                                      *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (4, 'BB9GX6FSF09MLCTFLTXX77MPX', 19, 15, '2000-1-1 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (3, 'SFO6M20VSV XFU DWH87X5JGC', 14, 15, '2011-10-11 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into ORDERS (ORD_ID, ORD_NUMBER, ORD_TABLE, EMP_ID, ORD_DATE) values (11, 'FM7W44R9536A82GQH6TI0Y U9', 2, 15, '2008-10-28 0:0:0')
+                                                                                                                     *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (9, 18, 0)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (2, 14, 17)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (19, 13, 14)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (8, 7, 3)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (10, 17, 12)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (4, 1, 19)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (16, 10, 0)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (7, 8, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (5, 12, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (3, 15, 11)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (17, 1, 4)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (14, 12, 13)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (15, 1, 4)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (12, 7, 19)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (6, 6, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (18, 6, 16)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (13, 18, 6)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (1, 13, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (11, 15, 7)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+insert into DISH_OF_ORDERS (DOD_ID, ORD_ID, DSH_ID) values (0, 5, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_DISH_OF__REFERENCE_ORDERS) 
+violated - parent key not found 
+
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (4, 'RMA0L6VDKCEJ8R30UY41SM4NY', 17, '2010-3-25 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (7, 'CSC4FWWJOMT0YNS0 T2AY0Y3G', 7, '2007-9-28 0:0:0')
+                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (17, 'R4XWF0J8GGE1H511XHX9IF 8V', 14, '2005-8-12 0:0:0')
+                                                                                                                *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (13, 'N6I9USKHCPVMXXL47Y9QXCMI6', 4, '2001-1-4 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (2, 'WSTMTEO99LIUPCCNLH2NJE5PJ', 5, '2008-8-26 0:0:0')
+                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (9, '4UVTL8L7UWL22U9O2H2U  DSD', 10, '2006-5-12 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (18, '1D2SFLP92J47JSYC3HKXIHCEX', 1, '2003-4-3 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (11, 'GIVLA9U05I0DUR1NB7XB60YUB', 14, '2004-9-22 0:0:0')
+                                                                                                                *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (1, 'GUE1 SOX9IUKSUC 4JXTREXLA', 8, '2009-7-16 0:0:0')
+                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (0, 'B1N3XK25SQJ1 IAYK RXYISIX', 2, '2001-6-25 0:0:0')
+                                                                                                              *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (19, 'MBL07MU6PHK6QLC 70RI97RWR', 13, '2011-4-18 0:0:0')
+                                                                                                                *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (10, 'U0F DGWFJX6VJOEUCPATL0P6T', 16, '2013-5-20 0:0:0')
+                                                                                                                *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (8, '8HUB2GG657AF3FX36UAET0HAI', 16, '2011-9-20 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (5, 'JESFFET9N54LDWK8TYKUH5 KK', 15, '2002-4-23 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (15, 'X7NA9VQS0Q3U86FH51C0F7XIK', 2, '2000-1-1 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (6, 'CCCRN2O7SSK8XYL8VVOLI61SF', 14, '2012-3-29 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (12, 'JRYPP6Q6LCVWI3MY4E3RI6ONT', 3, '2007-3-2 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (3, 'XTWM32IQAW0SC3ET16YECPEUG', 19, '2008-3-20 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (16, '14KE1BDNXQP11ERB6M76B8I3V', 15, '2010-9-15 0:0:0')
+                                                                                                                *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into PREPARED_DISHES (PRD_ID, PRD_NUMBER, DOD_ID, PRD_DATE) values (14, 'G2O0QEMQ3 R 245BW7YR6RSA9', 2, '2004-3-18 0:0:0')
+                                                                                                               *
+ERROR at line 1:
+ORA-01861: literal does not match format string 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (15, 4)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (10, 7)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (13, 17)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (8, 13)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (11, 2)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (7, 9)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (19, 18)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (6, 11)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (4, 1)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (0, 0)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (5, 19)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (3, 10)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (12, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (17, 5)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (14, 15)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (16, 6)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (2, 12)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (9, 3)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (18, 16)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into COOK (EMP_ID, PRD_ID) values (1, 14)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_COOK_REFERENCE_PREPARED) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (15, 5, 15)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (10, 14, 4)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (13, 7, 13)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (8, 13, 10)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (11, 11, 12)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (7, 6, 1)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (19, 15, 19)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (6, 8, 3)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (4, 9, 16)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (0, 4, 8)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (5, 3, 2)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (3, 12, 14)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (12, 16, 5)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (17, 0, 9)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_POSITION) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (14, 10, 7)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (16, 17, 18)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (2, 18, 6)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (9, 1, 11)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (18, 19, 17)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+insert into POSITION_OF_EMPLOYEE (EMP_ID, PST_ID, POE_SALARY) values (1, 2, 0)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (RESTAURANT.FK_POSITION_REFERENCE_EMPLOYEE) 
+violated - parent key not found 
+
+
+
+Commit complete.
+
+SQL> spool off

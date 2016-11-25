@@ -1,0 +1,485 @@
+SQL> @ddl
+
+Package created.
+
+
+Package created.
+
+
+Package body created.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Trigger dropped.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Index dropped.
+
+
+Index dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Sequence created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Index created.
+
+
+Table created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Table created.
+
+
+Index created.
+
+
+Index created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+SQL> spool off
